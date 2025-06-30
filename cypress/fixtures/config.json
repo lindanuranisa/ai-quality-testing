@@ -1,0 +1,55 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "PepperMoney",
+      "frontend_url": "https://alphame.adgo.dev/main/investor/company-detail/685674e293c4909c25f99ae3?view_as=67c69e6d93c4906311097668",
+      "source_files": {
+        "pitch_deck": "data/source_files/PepperMoney.pptx"
+      },
+      "ai_generated_memo": "data/ai_outputs/PepperMoney_Investment_Memo.pdf"
+    }
+  ],
+  "frontend_fields": [
+    "company_name",
+    "industry",
+    "location",
+    "founders",
+    "founder_email",
+    "year_founded",
+    "funding_stage",
+    "latest_valuation",
+    "fund_raise_target",
+    "amount_raised",
+    "revenue",
+    "list_of_investors",
+    "lead_investor",
+    "verticals",
+    "keywords"
+  ],
+  "pdf_sections": [
+    "executive_summary",
+    "company_information",
+    "startup_stage",
+    "deal_summary",
+    "management_team",
+    "key_metrics",
+    "customer_problem",
+    "product_service_summary",
+    "investment_themes",
+    "market_overview",
+    "list_of_competitors",
+    "competitive_advantage_summary",
+    "investment_considerations_risk_factors"
+  ],
+  "claude_config": {
+    "model": "claude-3-5-sonnet-20241022",
+    "max_tokens": 700
+  },
+  "processing_config": {
+    "combine_all_sources": true,
+    "prioritize_investment_memo": true,
+    "ocr_enabled": true,
+    "max_file_size_mb": 100
+  }
+}

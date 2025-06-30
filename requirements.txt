@@ -1,0 +1,34 @@
+# AI Quality Assessment Tool - Python Dependencies
+# ================================================
+
+# Core AI and API Dependencies
+anthropic>=0.25.0                    # Claude API client
+python-dotenv>=1.0.0                 # Environment variable management
+
+# Document Processing Dependencies
+PyPDF2>=3.0.1                       # PDF text extraction
+PyMuPDF>=1.23.0                     # Advanced PDF processing (fitz)
+python-pptx>=0.6.21                 # PowerPoint presentation processing
+pdf2image>=1.16.3                   # PDF to image conversion
+
+# OCR and Image Processing Dependencies
+pytesseract>=0.3.10                 # OCR text extraction
+Pillow>=10.0.0                      # Image processing (PIL)
+opencv-python>=4.8.0                # Computer vision (cv2)
+numpy>=1.24.0                       # Numerical operations
+
+# PDF Report Generation Dependencies
+reportlab>=4.0.4                    # PDF report creation
+
+# Data Processing and Utilities
+pandas>=2.0.0                       # Data manipulation (optional but recommended)
+requests>=2.31.0                    # HTTP requests (for web APIs)
+
+# Development and Testing Dependencies (Optional)
+pytest>=7.4.0                       # Testing framework
+pytest-cov>=4.1.0                   # Test coverage
+black>=23.0.0                       # Code formatting
+flake8>=6.0.0                       # Code linting
+
+# System Integration Dependencies
+psutil>=5.9.0                       # System and process utilities
